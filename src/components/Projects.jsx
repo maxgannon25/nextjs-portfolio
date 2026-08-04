@@ -6,7 +6,7 @@ import { useState } from "react";
 const projects = [
   {
     id: 3,
-    title: "Final Year Project",
+    title: "Full-Stack Vulnerability Intelligence Platform (BSc Project)",
     description:
       "A responsive full-stack application developed during my Computer Science degree with a focus on scalable software engineering principles.",
     technologies: ["JavaScript", "Python", "PostgreSQL", "Flask", "GCP", "Linux", "Bash", "CSS", "HTML"],
@@ -77,26 +77,14 @@ const prevImage = (projectIndex) => {
                 {project.description}
               </p>
 
-              <div className="mb-8 flex flex-col items-center">
-                {project.images && project.images.length > 0 && (
+              <div className="mb-8 flex justify-center">
                   <Image
-                    src={project.images[currentImages[index]]}
+                    src={project.images[0]}
                     alt={project.title}
-                    width={700}
+                    width={750}
                     height={400}
-                    className="rounded-lg"
+                    className="rounded-lg shadow-xl"
                   />
-                )}
-
-                <div className="mt-4 flex gap-4">
-                  <button className="rounded border border-zinc-700 px-4 py-2 hover:bg-zinc-800" onClick={() => prevImage(index)}>
-                    &lt;
-                  </button>
-
-                  <button className="rounded border border-zinc-700 px-4 py-2 hover:bg-zinc-800" onClick={() => nextImage(index)}>
-                    &gt;
-                  </button>
-                </div>
               </div>
 
               <div className="mb-8 flex flex-wrap gap-3">

@@ -19,8 +19,8 @@ export default function About() {
           </p>
 
           <p className="text-lg leading-8 text-zinc-400">
-            After completing a placement year in industry and graduating with a
-            First Class Computer Science degree, I'm looking to begin my career
+            After completing a year in industry and graduating with a
+            First Class Computer Science degree, I'm looking to further my career
             as a software engineer.
           </p>
         </div>
