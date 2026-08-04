@@ -5,14 +5,6 @@ import { useState } from "react";
 
 const projects = [
   {
-    id: 1,
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio built with Next.js and Tailwind CSS to showcase my projects, skills and experience.",
-    technologies: ["React", "Next.js", "Tailwind CSS"],
-    github: "#",
-  },
-  {
     id: 3,
     title: "Final Year Project",
     description:
@@ -28,9 +20,8 @@ const projects = [
       "/epss-analysis.png",
       "/cwe-search.png",
       "/cve-search.png",
-      "/api-guidance.png",
     ],
-    github: "#",
+    github: "https://github.com/maxgannon25/analysing-the-global-software-vulnerability-landscape",
   },
 ];
 
