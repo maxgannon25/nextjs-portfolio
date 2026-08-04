@@ -36,7 +36,7 @@ export default function Hero() {
           </Link>
 
           <Link
-            href="https://github.com/YOUR_GITHUB"
+            href="https://github.com/maxgannon25"
             target="_blank"
             className="rounded-lg border border-zinc-700 px-6 py-3 font-medium transition hover:border-zinc-500 hover:bg-zinc-900"
           >
