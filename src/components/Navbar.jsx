@@ -9,29 +9,29 @@ export default function Navbar() {
 
         <Link
           href="/"
-          className="transition hover:text-blue-400"
+          className="text-white transition hover:text-blue-400"
         >
           MG
         </Link>
 
         <nav className="flex items-center gap-8 text-sm font-medium">
 
-          <Link href="/about" className="transition hover:text-blue-400">
+          <Link href="/about" className="text-white transition hover:text-blue-400">
             About
           </Link>
 
-          <Link href="/projects" className="transition hover:text-blue-400">
+          <Link href="/projects" className="text-white transition hover:text-blue-400">
             Projects
           </Link>
 
-          <Link href="/contact" className="transition hover:text-blue-400">
+          <Link href="/contact" className="text-white transition hover:text-blue-400">
             Contact
           </Link>
 
           <Link
             href="https://github.com/maxgannon25"
             target="_blank"
-            className="rounded-lg border border-white/10 px-4 py-2 transition hover:border-blue-500 hover:text-blue-400"
+            className="text-white rounded-lg border border-white/10 px-4 py-2 transition hover:border-blue-500 hover:text-blue-400"
           >
             GitHub
           </Link>

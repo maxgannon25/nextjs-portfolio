@@ -21,7 +21,7 @@ export default function About() {
           <p className="text-lg leading-8 text-zinc-400">
             After completing a placement year in industry and graduating with a
             First Class Computer Science degree, I'm looking to begin my career
-            as a graduate software engineer.
+            as a software engineer.
           </p>
         </div>
 
@@ -66,8 +66,8 @@ export default function About() {
             </p>
 
             <ul className="mt-6 space-y-3 text-zinc-400">
-              <li>• Built production frontend features using JavaScript and TypeScript</li>
-              <li>• Contributed to backend services and REST APIs</li>
+              <li>• Built production frontend features using JavaScript, TypeScript with EmberJS for Puppet Enterprise</li>
+              <li>• Contributed to backend development on Puppet Comply and REST API tooling</li>
               <li>• Worked within Agile Scrum teams</li>
               <li>• Collaborated through GitHub pull requests and code reviews</li>
             </ul>
