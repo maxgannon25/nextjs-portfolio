@@ -29,7 +29,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="https://github.com/YOUR_GITHUB"
+            href="https://github.com/maxgannon25"
             target="_blank"
             className="rounded-lg border border-white/10 px-4 py-2 transition hover:border-blue-500 hover:text-blue-400"
           >
