@@ -42,8 +42,8 @@ export default function About() {
               BSc Computer Science
             </p>
 
-            <p className="mt-2 text-zinc-500">
-              First Class Honours
+            <p className="mt-2 font-bold text-zinc-300">
+              First Class Honours (82%)
             </p>
 
             <p className="mt-4 text-sm text-zinc-500">
@@ -62,7 +62,7 @@ export default function About() {
             </h3>
 
             <p className="mt-2 text-zinc-400">
-              Intern Software Engineer
+              Software Engineering Intern
             </p>
 
             <ul className="mt-6 space-y-3 text-zinc-400">
